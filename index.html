@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Extended Comment Form</title>
+    </head>
+    <body>
+        <div id="commentSection">
+            <h2>Comments</h2>
+            <ul id="commentList"></ul>
+        </div>
+
+        <!-- Form untuk Input Data Pengguna -->
+        <form id="commentForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name..."
+                required><br><br>
+
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address"
+                placeholder="Your address..." required><br><br>
+
+            <label for="hobby">Hobby:</label><br>
+            <input type="text" id="hobby" name="hobby"
+                placeholder="Your hobby..." required><br><br>
+
+            <label for="commentInput">Comment:</label><br>
+            <textarea id="commentInput" name="comment"
+                placeholder="Write your comment here..."
+                required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+</html>
